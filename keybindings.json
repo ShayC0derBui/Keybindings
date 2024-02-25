@@ -30,7 +30,7 @@
   {
     "command": "list.toggleExpand",
     "key": "t",
-    "when": "listFocus"
+    "when": "listFocus && !inputFocus"
   },
   {
     "key": "t",
@@ -73,11 +73,11 @@
     "when": "filesExplorerFocus"
   },
   {
-    "key": "shift+l",
+    "key": "ctrl+l",
     "command": "workbench.action.nextEditorInGroup"
   },
   {
-    "key": "shift+h",
+    "key": "ctrl+h",
     "command": "workbench.action.previousEditorInGroup"
   }
 ]
