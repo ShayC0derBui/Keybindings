@@ -73,9 +73,11 @@
     "when": "filesExplorerFocus"
   },
   {
-    "key": "c",
-    // a command when we click a folder in the explorer, the folder will be opened or closed
-    "command": "workbench.files.action.",
-    "when": "filesExplorerFocus"
+    "key": "shift+l",
+    "command": "workbench.action.nextEditorInGroup"
+  },
+  {
+    "key": "shift+h",
+    "command": "workbench.action.previousEditorInGroup"
   }
 ]
